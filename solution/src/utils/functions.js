@@ -4,7 +4,6 @@ import {useState,useEffect} from "react";
 import { getDatabase,ref,set,push,onValue, remove,update} from "firebase/database";
 import Toastify from "./toast";
 
-
 // Bilgi Ekleme
 export const AddUser=(info)=>{
     const db = getDatabase();
